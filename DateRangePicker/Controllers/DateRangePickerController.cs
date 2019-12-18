@@ -11,8 +11,8 @@ namespace DateRangePickerDemo.Controllers
         // GET: DateRangePicker
         public ActionResult Index(DateTime? start,DateTime? end)
         {
-            ViewBag.StartDate = start;
-            ViewBag.EndDate = end;
+            ViewBag.start = start;
+            ViewBag.end = end;
             return View();
         }
 
